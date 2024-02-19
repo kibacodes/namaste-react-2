@@ -10,7 +10,7 @@ What is crossorigin attribute in script tag? - It sets the mode of the request t
 
 Difference between react.development.js and react.production.js via CDN links- Dev link is basically there for development of the App and has error messages, debugging tools and warnings. Not optimized for production and is large in size which reduces performance whereas Production link is optimized for production and is small in size which improves app's performance. However, it doesn't have the debugging tools, error messages and warnings.
 
-Async vs defer - In async, the html code parsing and JS script fetching goes side by side. Once the script is fetched, the parsing stops and script is executed. Thereafter, parsing continues. In defer, once the parsing is complete then only the script is executed. Till, the parsing is going on, it fetches the script.
+Async vs defer - In async, the html code parsing and JS script fetching goes side by side. Once the script is fetched, the parsing stops and script is executed. Thereafter, parsing continues. In defer, once the parsing is complete then only the script is executed. Till, the parsing is going on, it fetches the script. Async doesn't guarantee of order of execution but defer does. Hence, defer is preferred over async in most cases.
 
 ...
 
