@@ -1,7 +1,28 @@
-#heading {
-    color: green;
-}
-
 #root {
     border: 1px solid red;
+}
+
+.container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.sigil {
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    align-self: flex-start;
+}
+
+.search-bar {
+    display: flex;
+    align-self: flex-start;
+    margin: 10px 40px 0 0;
+}
+
+.user-icon {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 60px;
 }

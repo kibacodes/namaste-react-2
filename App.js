@@ -10,10 +10,12 @@ const Title = () => (
   const HeadingComponent = () => {
     return (
       <div className="container">
-        <Title />
+        {/* <Title />
         <Title></Title>
-        {Title()}
-        <h1 className="heading">Namaste React Functional Component</h1>
+        {Title()} */}
+        <img className="sigil" src="https://www.symbols.com/images/symbol/2206_house-stark.png" alt="stark sigil" />
+        <input type="text" className="search-bar"/>
+        <img className="user-icon" src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png" alt="user icon" />
       </div>
     );
   };
