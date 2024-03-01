@@ -32,3 +32,20 @@ Async vs defer - In async, the html code parsing and JS script fetching goes sid
 - HTTPs
 - Tree Shaking - remove unused code
 - Different bundles for dev and prod
+
+Types of export/import
+
+- Default Export/Import
+
+export default Component;
+import Component from "filepath";
+
+- Named Export/Import
+
+export const Component;
+import {Component} from "filepath";
+
+# React Hooks
+(Normal JS utility functions written by Facebook developers)
+- useState() - superpowerful state variables in react
+- useEffect()
